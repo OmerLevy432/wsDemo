@@ -9,6 +9,15 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h1>Hello there</h1>
+
+            <asp:Button ID="myButton" runat="server" Text="Press me" OnClick="myButton_Click" />
+            <br />
+
+            <asp:TextBox ID="myText" runat="server"></asp:TextBox>
+            <br />
+
+            <asp:Label ID="myLabel" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>

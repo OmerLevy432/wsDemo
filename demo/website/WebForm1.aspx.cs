@@ -13,5 +13,10 @@ namespace website
         {
 
         }
+
+        protected void myButton_Click(object sender, EventArgs e)
+        {
+            myLabel.Text = "hello " + myText.Text + " you are a nigger";
+        }
     }
 }
