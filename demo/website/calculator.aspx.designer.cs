@@ -11,7 +11,7 @@ namespace website
 {
 
 
-    public partial class WebForm1
+    public partial class calculator
     {
 
         /// <summary>
@@ -24,30 +24,48 @@ namespace website
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// myButton control.
+        /// number1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button myButton;
+        protected global::System.Web.UI.WebControls.TextBox number1;
 
         /// <summary>
-        /// myText control.
+        /// number2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox myText;
+        protected global::System.Web.UI.WebControls.TextBox number2;
 
         /// <summary>
-        /// myLabel control.
+        /// opValue control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label myLabel;
+        protected global::System.Web.UI.WebControls.TextBox opValue;
+
+        /// <summary>
+        /// button control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button button;
+
+        /// <summary>
+        /// result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label result;
     }
 }
