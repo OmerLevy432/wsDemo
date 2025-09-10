@@ -7,13 +7,13 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A3BBDC62-D38E-4F34-961D-0A33FEF45766}</ProjectGuid>
+    <ProjectGuid>{8B4C86A3-B0BB-457F-BBCA-7A9BA9662D12}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ws</RootNamespace>
-    <AssemblyName>ws</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>webService</RootNamespace>
+    <AssemblyName>webService</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -67,14 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="calculatorService.asmx" />
+    <Content Include="MainService.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="calculatorService.asmx.cs">
-      <DependentUpon>calculatorService.asmx</DependentUpon>
+    <Compile Include="MainService.asmx.cs">
+      <DependentUpon>MainService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="PhoneContact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -99,9 +100,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51116</DevelopmentServerPort>
+          <DevelopmentServerPort>59655</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51116/</IISUrl>
+          <IISUrl>http://localhost:59655/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
